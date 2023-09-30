@@ -160,6 +160,6 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 Second part of Airbnb: Joann Vuong
-Four part of Airbnb: Vicenzo Anza
+Four part of Airbnb: Vicenzo Anza, Alejandro Rivello
 ## License
 Public Domain. No copy write protection. 
