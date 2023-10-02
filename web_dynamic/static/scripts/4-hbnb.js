@@ -22,10 +22,9 @@ $(document).ready(function () {
             searchParams.cities = cities.split(',').map(city => city.trim());
         }
 
-        const amenities = $('input[name="amenities"]').val();
-        if (amenities) {
-            searchParams.amenities = amenities.split(',').map(amenity => amenity.trim());
-        }
+        const amenities = $('input[name="amenities"]:checked').map(function () {
+            return $(this).val();
+        }).get();
 
         $.ajax({
             type: 'POST',
@@ -41,9 +40,9 @@ $(document).ready(function () {
         });
     }
 
-    updateApiStatus();
-
     $('button').click(function () {
         searchPlaces();
     });
 });
+
+updateApiStatus();
